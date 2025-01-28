@@ -58,16 +58,16 @@ img {
 }
 
 .left .overlay {
-  left: 80%;
+  left: 10%;
   color: white;
-  text-align: right;
+  text-align: left;
   font-family: 'Baloo 2', cursive;
 }
 
 .right .overlay {
   right: 80%;
   color: white;
-  text-align: right;
+  text-align: left;
   font-family: 'Roboto Slab', serif;
 }
 
