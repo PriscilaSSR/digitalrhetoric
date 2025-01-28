@@ -58,7 +58,7 @@ img {
 }
 
 .left .overlay {
-  right: 20%;
+  right: -20%;
   color: white;
   text-align: left;
   font-family: 'Baloo 2', cursive;
