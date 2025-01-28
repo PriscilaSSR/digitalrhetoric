@@ -23,6 +23,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
+  transition: clip-path 0.3s ease;
 }
 
 .left {
@@ -51,6 +52,7 @@ img {
   transform: translate(-50%, -50%);
   color: white;
   font-family: 'Georgia', serif;
+  z-index: 2;
 }
 
 .left .overlay {
@@ -80,7 +82,7 @@ img {
   width: 5px;
   background: #333;
   cursor: ew-resize;
-  z-index: 2;
+  z-index: 100;
   left: 50%; /* Start in the center */
   transform: translateX(-50%);
 }
