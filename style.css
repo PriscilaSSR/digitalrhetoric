@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Roboto+Slab&display=swap');
+
 body {
   margin: 0;
   height: 100vh;
@@ -58,12 +60,13 @@ img {
 .left .overlay {
   color: white;
   text-align: left;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Baloo 2', cursive;
 }
 
 .right .overlay {
   color: white;
   text-align: right;
+  font-family: 'Roboto Slab', serif;
 }
 
 .overlay h1 {
