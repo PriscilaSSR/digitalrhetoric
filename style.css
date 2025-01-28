@@ -23,7 +23,6 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
-  transition: clip-path 0.3s ease;
 }
 
 .left {
@@ -51,17 +50,18 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  text-align: center;
   font-family: 'Georgia', serif;
 }
 
 .left .overlay {
-  color: #333;
+  color: #000;
+  text-align: left;
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 .right .overlay {
   color: white;
+  text-align: right;
 }
 
 .overlay h1 {
