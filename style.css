@@ -81,4 +81,6 @@ img {
   background: #333;
   cursor: ew-resize;
   z-index: 2;
+  left: 50%; /* Start in the center */
+  transform: translateX(-50%);
 }
